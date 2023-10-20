@@ -1,0 +1,43 @@
+html{
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+.column-2 {
+    display: flex;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Noto Sans Nandinagari', sans-serif;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    background-position:center;
+    padding: 10px;
+    padding-top: 70px;
+}
+.menu-line{
+    width: 50%;
+}
