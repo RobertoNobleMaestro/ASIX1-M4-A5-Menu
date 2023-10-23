@@ -1,30 +1,28 @@
-html{
-    font-family: sans-serif;
-}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    background-color: rgba(255, 166, 0, 0.11);
 }
 .mar-body{
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 700px;
+    margin-right: 700px;
 }
 .row {
-    content: "";
-    display: table;
-    clear: both;
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-content: space-around;
+    text-align: center;
+    align-items: center;
 }
 .column-2 {
-    display: block;
+    display: flex;    
+    width: 100px;
     border: 1px solid black;
+    align-items: center;
 }
 
 h1{
@@ -39,13 +37,29 @@ header{
     width: 100%;
     background-position:center;
     padding: 10px;
-    padding-top: 70px;
+    
 }
 .menu-line{
     width: 50%;
+    height: 3px;
+    background-color: black;
+    color: black;
 }
 .cuadrado{
     border: 1px solid black;
-    height: 800px;
+    height: 500px;
     background-color: rgb(253, 238, 207);
+}
+img{
+    height: 100px;
+    width: 40%;
+}
+
+.enla-a{
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans Nandinagari', sans-serif;
+    font-size: larger;
+    color: black;
+    font-weight: 400;
 }
