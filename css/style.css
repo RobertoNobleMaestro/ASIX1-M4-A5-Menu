@@ -1,11 +1,5 @@
-
 * {
     box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background-color: rgba(255, 166, 0, 0.11);
 }
 .mar-body{
     margin-left: 700px;
@@ -24,26 +18,25 @@ body {
     border: 1px solid black;
     align-items: center;
 }
-
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 166, 0, 0.11);
+}
 h1{
     font-size: 50px;
     margin: 0;
     font-family: 'DM Sans', sans-serif;
 font-family: 'Noto Sans Nandinagari', sans-serif;
 }
-
 header{
     text-align: center;
     width: 100%;
     background-position:center;
     padding: 10px;
     
-}
-.menu-line{
-    width: 50%;
-    height: 3px;
-    background-color: black;
-    color: black;
 }
 .cuadrado{
     border: 1px solid black;
@@ -63,3 +56,13 @@ img{
     color: black;
     font-weight: 400;
 }
+  .line-bel {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+
