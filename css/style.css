@@ -43,7 +43,7 @@ header{
     height: 500px;
     background-color: rgb(253, 238, 207);
 }
-img{
+.menu-img{
     height: 100px;
     width: 40%;
 }
@@ -52,9 +52,10 @@ img{
     text-decoration: none;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Noto Sans Nandinagari', sans-serif;
-    font-size: larger;
+    font-size: large;
     color: black;
-    font-weight: 400;
+    font-weight: 500;
+
 }
   .line-bel {
     border-bottom: 2px solid #ddd;
@@ -65,4 +66,11 @@ img{
     border: 1px solid #ddd;
     margin: 20px 0;
   }
+.resultado-final{
+    width: 500px;
 
+}
+#resultado-final{
+justify-content: center;    
+display: flex;
+}
